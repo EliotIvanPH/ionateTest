@@ -98,15 +98,19 @@ export function UnstyledTabsCustomized() {
     <>
     <TabsUnstyled defaultValue={0}>
       <TabsList>
-        <Tab>One</Tab>
-        <Tab>Two</Tab>
-        <Tab>Three</Tab>
+        <Tab>Resume</Tab>
+        <Tab>Plazos/Monto</Tab>
+        <Tab>Uni. a const</Tab>
       </TabsList>
       <TabPanel value={0}>
-          <Contact></Contact>
+        <h1>Resume</h1>
         </TabPanel>
-      <TabPanel value={1}>Second content</TabPanel>
-      <TabPanel value={2}>Third content</TabPanel>
+      <TabPanel value={1}>
+        <h1>Plazos/Montos</h1>
+      </TabPanel>
+      <TabPanel value={2}>
+        <h1>Uni. a const</h1>
+      </TabPanel>
     </TabsUnstyled>
     </>
   );

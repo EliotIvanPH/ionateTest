@@ -11,10 +11,11 @@ export default function Layout() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="md">
+        <br />
         <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} >
           <NavigationTabBar/>
           <Outlet/>
-          <Footer autor="hello"/>
+          <Footer autor="Eliot Ivan Palacios Hernandez"/>
         </Box>
       </Container>
     </React.Fragment>

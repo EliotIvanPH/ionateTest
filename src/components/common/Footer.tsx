@@ -7,6 +7,6 @@ import * as React from 'react';
 
 export function Footer(props:FooterProps){
     return(
-        <div className="footer">This will always appear at the bottom of the page, but <strong>{props.autor}</strong>.</div>
+        <div className="footer">Prueba realizada por <strong>{props.autor}</strong>.</div>
     );
 }
