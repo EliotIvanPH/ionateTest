@@ -12,7 +12,7 @@ export default function Layout() {
       <CssBaseline />
       <Container maxWidth="md">
         <br />
-        <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} >
+        <Box sx={{ bgcolor: '#cfe8fc'}} >
           <NavigationTabBar/>
           <Outlet/>
           <Footer autor="Eliot Ivan Palacios Hernandez"/>

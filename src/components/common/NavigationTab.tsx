@@ -5,6 +5,10 @@ import TabsListUnstyled from '@mui/base/TabsListUnstyled';
 import TabPanelUnstyled from '@mui/base/TabPanelUnstyled';
 import { buttonUnstyledClasses } from '@mui/base/ButtonUnstyled';
 import TabUnstyled, { tabUnstyledClasses } from '@mui/base/TabUnstyled';
+import StickyHeadTable from '../ResumeTable';
+import TableExport from '../PlazoMontoTable';
+import FetchTable from '../endPointTable';
+
 
 const blue = {
   50: '#F0F7FF',
@@ -102,13 +106,13 @@ export function UnstyledTabsCustomized() {
         <Tab>Uni. a const</Tab>
       </TabsList>
       <TabPanel value={0}>
-        <h1>Resume</h1>
+        <StickyHeadTable/>
         </TabPanel>
       <TabPanel value={1}>
-        <h1>Plazos/Montos</h1>
+        <TableExport/>
       </TabPanel>
       <TabPanel value={2}>
-        <h1>Uni. a const</h1>
+        <FetchTable/>
       </TabPanel>
     </TabsUnstyled>
     </>
